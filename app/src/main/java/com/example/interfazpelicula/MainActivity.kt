@@ -14,6 +14,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.example.interfazpelicula.ui.pantallas.Pantalla
 import com.example.interfazpelicula.ui.pantallas.Pantalla2
 import com.example.interfazpelicula.ui.theme.InterfazPeliculaTheme
+import pantalla3
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -37,7 +38,7 @@ class MainActivity : ComponentActivity() {
 fun Preview() {
     InterfazPeliculaTheme {
         Scaffold(modifier = Modifier.fillMaxSize()) { padding_interno ->
-            Pantalla2(modificador = Modifier.padding(padding_interno))
+            pantalla3(modificador = Modifier.padding(padding_interno))
         }
     }
 }
